@@ -6,11 +6,11 @@ import "./App.css";
 /* eslint-disable */
 function App() {
  return (
-  <>
+  <div className="root">
    <Header />
    <Outlet />
    <Footer />
-  </>
+  </div>
  );
 }
 
