@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 import "./index.css";
 
-function CardProduto({ dadosProduto }) {
+function CardProdutoForm({ dadosProduto }) {
  return (
   <Grid className="produtos" xs={10}>
    <Card sx={{ maxWidth: 345, backgroundColor: "#d9d9d9", boxShadow: 5 }}>
@@ -64,4 +64,4 @@ function CardProduto({ dadosProduto }) {
 }
 import { useContext } from "react";
 
-export default CardProduto;
+export default CardProdutoForm;

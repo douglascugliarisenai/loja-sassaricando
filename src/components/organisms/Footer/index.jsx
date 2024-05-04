@@ -2,6 +2,7 @@ import "./index.css";
 import "../../../../src/App.css";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 import { Grid } from "@mui/material";
 
@@ -18,6 +19,11 @@ function TrilhasFooter() {
      <li>
       <a href="URL-LOJA" target="_blank">
        <InstagramIcon sx={{ color: "black" }} />
+      </a>
+     </li>
+     <li>
+      <a href="URL-LOJA" target="_blank">
+       <WhatsAppIcon sx={{ color: "black" }} />
       </a>
      </li>
     </ul>
