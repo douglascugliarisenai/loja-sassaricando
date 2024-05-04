@@ -1,7 +1,7 @@
 /* eslint-disable */
 import styles from "./ProdutosPage.module.css";
 import { Grid, Typography } from "@mui/material/";
-import CardProduto from "../../components/molecules/CardProduto";
+import CardProdutoForm from "../../components/molecules/CardProdutoForm";
 import { useContext } from "react";
 import { ProdutosContext } from "../../context/ProdutosContext";
 
